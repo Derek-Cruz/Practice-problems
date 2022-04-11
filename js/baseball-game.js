@@ -5,5 +5,5 @@
  * @return {number}
  */
 var calPoints = function (ops) {
-
+// console.log('test:', ops)
 };
