@@ -1,0 +1,47 @@
+<div class="r">
+  <div class="t"></div>
+  <div class="t"></div>
+  <div class="t"></div>
+  <div class="t"></div>
+</div>
+<style>
+  body {
+    background: #F2F2B6;
+    margin: 0;
+  }
+
+  .r {
+    position: relative;
+    width: 280px;
+    height: 130px;
+    margin: 85px auto;
+  }
+
+  .t {
+    position: absolute;
+    width: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 130px solid #FF6D00;
+    z-index: 1;
+  }
+
+  .t:nth-child(2) {
+    border-top-color: #FD4602;
+    left: 20px;
+    z-index: 0;
+  }
+
+  .t:nth-child(3) {
+    transform: scaleY(-1);
+    border-top-color: #FD4602;
+    left: 110px;
+    z-index: 1;
+  }
+
+  .t:nth-child(4) {
+    transform: scaleY(-1);
+    left: 130px;
+    z-index: 0;
+  }
+</style>
