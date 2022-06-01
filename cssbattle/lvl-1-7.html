@@ -1,0 +1,42 @@
+<div class="r">
+  <div class="a"></div>
+  <div class="a"></div>
+  <div class="a"></div>
+</div>
+<style>
+  body {
+    background: #0B2429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .r {
+    position: relative;
+    height: 150px;
+    width: 250px;
+  }
+
+  .a:first-child {
+    left: 0;
+    background: #1A4341;
+  }
+
+  .a:nth-child(2) {
+    left: 50px;
+    background: #998235;
+  }
+
+  .a:nth-child(3) {
+    left: 100px;
+    background: #F3AC3C;
+  }
+
+  .a {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 67%;
+    border-bottom-right-radius: 67%;
+  }
+</style>
