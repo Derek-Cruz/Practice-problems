@@ -1,5 +1,10 @@
-// https://app.codesignal.com/arcade/intro/level-2/xzKiBHjhoinnpdh6m
+// https://app.codesignal.com/arcade/intro/level-1/egbueTZRRL5Mm4TXN
 
-function solution(inputArray) {
-
+function solution(year) {
+  let centuryCount = 0;
+  while (year > 0) {
+    year = year - 100;
+    centuryCount = centuryCount + 1;
+  }
+  return centuryCount;
 }
