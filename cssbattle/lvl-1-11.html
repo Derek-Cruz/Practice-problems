@@ -1,4 +1,35 @@
-<div></div>
-<style></style>
-
-<!-- working on problem on css battle will transfwer when done -->
+<div class="half l"></div>
+<div id="c"></div>
+<div class="half r"></div>
+<style>
+  * {
+    background: #191210;
+    position: fixed;
+    font-size: 10px;
+  }
+  .half {
+    width: 6em;
+    height: 3em;
+    border-radius: 0 0 5em 5em;
+    border: 2em solid #ECA03D;
+    border-top: 0;
+  }
+  .l {
+    top: 15em;
+    left: 5em;
+  }
+  #c {
+    width: 10em;
+    height: 10em;
+    background: radial-gradient(#84271C 35%, #191210 35%);
+    border: 2em solid #ECA03D;
+    border-radius: 50%;
+    top: 8em;
+    left: 13em;
+  }
+  .r {
+    transform: rotate(180deg);
+    top: 10em;
+    left: 25em;
+  }
+</style>
