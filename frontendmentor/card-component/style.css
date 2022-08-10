@@ -1,0 +1,34 @@
+* {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.overall {
+    margin: 200px;
+}
+
+.place {
+    width: 194px;
+}
+
+.div {
+    display: flex;
+}
+
+.test {
+    color: red;
+}
+
+.button-style {
+    background-color: #4CAF50;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+}
