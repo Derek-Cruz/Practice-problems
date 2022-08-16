@@ -6,8 +6,8 @@
     display: flex;
 }
 
-.overall {
-    margin: 200px;
+.container {
+    display: flex;
 }
 
 .place {
@@ -20,6 +20,10 @@
 
 .test {
     color: red;
+}
+
+.butt-place {
+    display: flex;
 }
 
 .button-style {
