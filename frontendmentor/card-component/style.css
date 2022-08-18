@@ -22,9 +22,10 @@
     color: red;
 }
 
-/* .butt-place {
+.button-place {
     display: flex;
-} */
+    margin: 10 auto;
+}
 
 .button-style {
     background-color: #4CAF50;
