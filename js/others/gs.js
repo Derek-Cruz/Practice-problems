@@ -1,10 +1,10 @@
-function Oddnumbers(l, r) {
+// function Oddnumbers(l, r) {
 
-}
+// }
 
-function Sortarr(arr, k) {
+// function Sortarr(arr, k) {
 
-}
+// }
 
 function g(s) {
     let curr = 1;
