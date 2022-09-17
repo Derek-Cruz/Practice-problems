@@ -1,12 +1,12 @@
-// function Oddnumbers(l, r) {
-//     console.log('test 1', r)
-//     console.log('test 2', l)
-// }
+function Oddnumbers(l, r) {
+    console.log('test 1', r)
+    console.log('test 2', l)
+}
 
-// function Sortarr(arr, k) {
-//     console.log('test 1', arr)
-//     console.log('test 2', k)
-// }
+function Sortarr(arr, k) {
+    console.log('test 1', arr)
+    console.log('test 2', k)
+}
 
 function g(s) {
     let curr = 1;
