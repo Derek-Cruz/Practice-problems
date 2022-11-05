@@ -36,7 +36,7 @@
   transform: scale(1, 1); 
 }
 
-.btn-one::after {
+/* .btn-one::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -51,4 +51,4 @@
 .btn-one:hover::after {
   opacity: 0; 
   transform: scale(0.1, 1);
-}
+} */
