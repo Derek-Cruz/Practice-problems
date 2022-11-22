@@ -1,3 +1,3 @@
 function handleClick(click) {
-    console.log('CLICK')
+    console.log('Done')
 }
