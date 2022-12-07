@@ -1,8 +1,6 @@
 .divP {
     width: 10px;
-    color: beige;
     display: flex;
-    margin: 0 auto;
 }
 
 .hidden {
