@@ -1,7 +1,7 @@
 .divP {
     display: flex;
-    width: auto;
-    margin: auto;
+    width: 150px;
+
 }
 
 .hidden {
