@@ -1,7 +1,12 @@
 .divP {
     display: flex;
+    margin: 0 auto;
 }
 
-/* .hidden {
+.container {
+    display: flex;
+}
 
-} */
+.hidden {
+    display: hidden;
+}
