@@ -1,1 +1,1 @@
-// need function
+// need card func 
