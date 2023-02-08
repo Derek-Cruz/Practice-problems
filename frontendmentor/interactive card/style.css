@@ -3,14 +3,10 @@
     margin: 0 auto;
 }
 
-/* .container {
+.container {
     display: flex;
     margin: 0 auto;
     padding: unset;
     height: 250px;
     width: 300px;
-} */
-
-.hidden {
-    display: hidden;
-} 
+}
